@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://www.purebasic.com/namespace" version="1.0" creator="PureBasic 5.71 LTS (MacOS X - x64)">
+  <section name="config">
+    <options closefiles="1" openmode="0" name="Ciphersaber"/>
+  </section>
+  <section name="data">
+    <explorer view="" pattern="0"/>
+    <log show="1"/>
+    <lastopen date="2020-03-28 08:42" user="niklas" host="hubert.local"/>
+  </section>
+  <section name="files">
+    <file name="AboutWindow.pbf">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="-"/>
+      <fingerprint md5="ed3e20678ac7d06d0dc0c29d088b9b64"/>
+    </file>
+    <file name="Main.pb">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="-"/>
+      <fingerprint md5="7ecdfcb0cfc1cc3f605b2a77886bb350"/>
+    </file>
+  </section>
+  <section name="targets">
+    <target name="Debug" enabled="1" default="1">
+      <inputfile value="Main.pb"/>
+      <outputfile value="Ciphersaber.app"/>
+      <executable value="Ciphersaber.app"/>
+      <options unicode="1" xpskin="1" debug="1"/>
+      <compilecount enable="1" value="44"/>
+      <buildcount enable="1" value="4"/>
+      <execonstant enable="1"/>
+    </target>
+    <target name="Release" enabled="1" default="0">
+      <inputfile value="Main.pb"/>
+      <outputfile value="Ciphersaber.app"/>
+      <executable value="Ciphersaber.app"/>
+      <options unicode="1" xpskin="1"/>
+      <icon enable="1">Ciphersaber.icns</icon>
+      <compilecount enable="1" value="13"/>
+      <buildcount enable="1" value="13"/>
+      <execonstant enable="1"/>
+    </target>
+    <target name="Release[Winx86]" enabled="0" default="0">
+      <inputfile value="Main.pb"/>
+      <outputfile value="Ciphersaber.exe"/>
+      <compiler version="PureBasic 5.70 LTS (Windows - x86)"/>
+      <executable value="Ciphersaber.exe"/>
+      <options xpskin="1"/>
+      <icon enable="1">Ciphersaber.ico</icon>
+      <execonstant enable="1"/>
+    </target>
+  </section>
+</project>
